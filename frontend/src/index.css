@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Coffee-roastery colour palette */
+  --color-kraft: #EFE6D3;
+  --color-espresso: #2B1D14;
+  --color-espresso-light: #4A3524;
+  --color-cherry: #A8321E;
+  --color-cherry-dark: #7E2415;
+  --color-roast-light: #C9A876;
+  --color-roast-medium: #8B5A2B;
+  --color-roast-dark: #3B2415;
+}
+
+body {
+  background-color: var(--color-kraft);
+  font-family: system-ui, sans-serif;
+  color: var(--color-espresso);
+}
